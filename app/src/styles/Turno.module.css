@@ -1,0 +1,23 @@
+.padrejs {
+    display: flex;
+    flex-direction: column;
+  }
+  .cartinscky {
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    padding: 1rem;
+    background-color: white;
+    width: 500px;
+    margin: 1rem;
+  }
+  .btnTurno {
+    width: 100%;
+    border: .1px solid gray;
+    padding: .4rem;
+    background-color: white;
+    border-radius: 5px;
+  }
+  .spanP {
+    font-weight: bold;
+  }
+  

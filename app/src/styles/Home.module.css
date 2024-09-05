@@ -1,0 +1,22 @@
+/* styles/Home.module.css */
+
+.container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .ppp {
+    color: #333;
+    font-size: 18px;
+  }
+  
+  .uul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .lii {
+    margin: 10px 0;
+  }
+  
+ 
