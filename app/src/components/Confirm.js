@@ -1,5 +1,3 @@
-import React from 'react';
-
 export default function Confirm({ message, onCancel, onConfirm }) {
     return (
       <div className="confirm-modal">

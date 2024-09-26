@@ -1,6 +1,4 @@
 // pages/contacto.js
-import React from 'react';
-
 import styles from '../styles/Contacto.module.css';
 
 export default function Contacto() {

@@ -1,41 +1,30 @@
-/* styles/Contacto.module.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 
-/* Estilo para el contenedor principal */
 .container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #f5f5f5;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
-  }
-  
-  /* Estilo para el título */
-  .titulo {
-    font-size: 2.5rem; /* Tamaño grande para el título */
-    font-weight: bold; /* Negrita para destacar */
-    color: #333; /* Color oscuro para mejor legibilidad */
-    margin-bottom: 20px; /* Espacio debajo del título */
-    font-family: 'Poppins', sans-serif; /* Fuente Poppins */
-  }
-  
-  /* Estilo para el texto */
-  .texto {
-    font-size: 1.125rem; /* Tamaño de fuente cómodo para lectura */
-    line-height: 1.8; /* Espaciado entre líneas */
-    color: #555; /* Color gris para el texto */
-    margin-bottom: 20px; /* Espacio debajo del párrafo */
-    font-family: 'Poppins', sans-serif; /* Fuente Poppins */
-  }
-  
-  /* Estilo para los enlaces */
-  .link {
-    color: #FF0066; /* Color para los enlaces */
-    text-decoration: none; /* Sin subrayado */
-  }
-  
-  .link:hover {
-    text-decoration: underline; /* Subrayado al pasar el cursor */
-  }
-  
+  padding: 40px;
+  background-color: #F9F9F9;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.titulo {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.5rem;
+  color: #FFAE12;
+  margin-bottom: 20px;
+}
+
+.texto {
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+  font-size: 1.2rem;
+}
+
+.link {
+  color: #FF6F61;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}

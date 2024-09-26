@@ -1,5 +1,3 @@
-import React from 'react';
-
 import Titulo from '../components/Titulo';
 import styles from '../styles/Quienes.module.css'; // Asegúrate de que exista un archivo Home.module.css
 

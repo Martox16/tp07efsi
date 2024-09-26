@@ -1,29 +1,70 @@
+/* Estilo principal para el formulario */
 .padreFormulario {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 10px;
-  width: 100%;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin: 0 auto;
+  font-family: 'Poppins', sans-serif;
 }
-.inputClass {
-  padding: .5rem;
-}
-.botonjs {
-  margin-top: 1rem;
-  display: flex;
-}
-.botonFormulario {
-  background-color: #33C3F0;
-  display: inline-block;
-  height: 38px;
-  padding: 0 30px;
-  color: white;
-  text-align: center;
-  font-size: 11px;
+
+/* Estilo de las etiquetas */
+.padreFormulario label {
+  font-size: 1rem;
   font-weight: 600;
-  line-height: 38px;
-  text-transform: uppercase;
-  border-radius: 4px;
-  cursor: pointer;
+  color: #333;
+  display: block;
+  margin-bottom: 8px;
+}
+
+/* Estilo de los campos de entrada de texto y fecha */
+.padreFormulario input[type="text"],
+.padreFormulario input[type="date"],
+.padreFormulario input[type="time"],
+.padreFormulario textarea {
   width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+/* Estilo específico para textarea */
+.padreFormulario textarea {
+  resize: none;
+  height: 100px;
+}
+
+/* Efecto al enfocar campos */
+.padreFormulario input:focus,
+.padreFormulario textarea:focus {
+  border-color: #FFAE12;
+  outline: none;
+}
+
+/* Estilo para el botón */
+.botonjs {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.botonjs button {
+  background-color: #FFAE12;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 4px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+  transition: background-color 0.3s ease;
+}
+
+.botonjs button:hover {
+  background-color: #e69e10;
 }

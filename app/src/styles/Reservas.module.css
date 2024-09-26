@@ -1,0 +1,111 @@
+/* Estilos globales para la página de reservas */
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+  }
+  
+  .columnaForm, .columnaCita {
+    flex: 1;
+    margin: 0 20px;
+  }
+  
+  h2 {
+    color: #FFAE12;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para el formulario */
+  .padreFormulario {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .padreFormulario label {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 8px;
+    display: block;
+  }
+  
+  .padreFormulario input,
+  .padreFormulario textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .padreFormulario textarea {
+    resize: none;
+    height: 100px;
+  }
+  
+  .botonjs {
+    text-align: center;
+  }
+  
+  .botonjs button {
+    background-color: #FFAE12;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .botonjs button:hover {
+    background-color: #e69e10;
+  }
+  
+  /* Estilos para los turnos */
+  .padrejs {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cartinscky {
+    background-color: #FFF3E0;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+  }
+  
+  .cartinscky p {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+  }
+  
+  .spanP {
+    font-weight: bold;
+    color: #FFAE12;
+  }
+  
+  .btnTurno {
+    background-color: #FF6F61;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .btnTurno:hover {
+    background-color: #ff5a50;
+  }
+  
